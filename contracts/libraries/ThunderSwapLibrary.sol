@@ -30,7 +30,7 @@ library ThunderSwapLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'dae5ccc57004fc51c2be968edebea7322e872feac86754b2bd07996ec56621a3' // init code hash
+                hex'd9ad4346712bcebf3ff417b0d870b9909a75268006596b8ddd6d53ca0b7d6d14' // init code hash
             ))));
     }
 

@@ -1,15 +1,5 @@
 pragma solidity >=0.5.0;
 
-/*
- * ThunderSwapFinance
- * App:             https://thunderswap.finance
- * Medium:          https://medium.com/@thunder_swap
- * Twitter:         https://twitter.com/thunder_swap
- * Telegram:        https://t.me/thunder_swap
- * Announcements:   https://t.me/thunder_swap_news
- * GitHub:          https://github.com/thunder-swap-finance
- */
-
 interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint value);
     event Transfer(address indexed from, address indexed to, uint value);
